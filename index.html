@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul class='nav-bar'>
+                <li><a href='#main'>Home</a></li>
+                <li><a href='#secondary'>Program 1</a></li>
+                <li><a href='#third'>Program 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main" id='main'>
+        <div class="text-container">
+            <h1 class='mainTxt'>Programming!</h1>
+            <p class='secondaryTxt'>Set of Instructions that are given to someone or something to perform a specific task.</p>
+            <button id='examples'><a href='#secondary' class='examples'>Examples</a></button>
+
+        </div>
+    </section>
+
+    <section id="secondary">
+        <div class="secondary-container">
+            <h1 class='title'>Change the Color To change the Background Color</h1>
+            <h2 class='colorsValue' id='colorValue'>#000</h2>
+            <input type='color' id='colors'> 
+        </div>
+    </section>
+    <section id="third">
+        <div class="third-container">
+            <h1 class='title'>Analog Clock</h1>
+            <p class='secondaryTxt'>The Current Time is : <span id='time'></span></p>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

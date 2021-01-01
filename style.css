@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: .4s;
+}
+html{
+    scroll-behavior: smooth;
+}
+button , a{
+    outline:none;
+}
+body{
+    background:url('./body.jpg') fixed;
+    font-family: concert one;
+    transition: .4s;
+    overflow-x: hidden;
+}
+header nav{
+    position: fixed;
+    width:100%;
+    padding:20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+li{
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:orange; 
+}
+li:hover{
+    background:orange;
+}
+li:hover a{
+    color:black;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align: center;
+    background: url(./backgroundMain.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.mainTxt{
+    font-size:3rem;
+    color:orange;
+    padding:10px;
+}
+.secondaryTxt{
+    color:#eee;
+    padding:10px;
+    font-size:1.5rem;
+}
+#examples{
+    padding:10px 20px;
+    margin:20px;
+    background:orange;
+    font-weight:800;
+    border:1px solid black;
+    transition:all .4s;
+    border-radius:5px;
+    cursor: pointer;
+}
+#examples:hover{
+    background:#111;
+    
+}
+.examples{
+    color:black;
+}
+#examples:hover .examples{
+    color:orange;
+}
+
+
+.text-container{
+    background:rgba(0, 0, 0, 0.9);
+    padding:90px 40px;
+}
+#secondary{
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 100px 0px;
+background:rgba(0, 0, 0, 1);
+text-align: center;
+}
+.title{
+    font-size:2rem;
+    color:orange;
+    padding:20px;
+}
+#colors{
+    /* font-size:2rem; */
+    height:30px;
+    width:70px;
+    margin:20px;
+}
+.colorsValue{
+    color:white;
+}
+#third{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    text-align: center;
+}
